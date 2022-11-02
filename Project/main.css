@@ -1,0 +1,130 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color:grey;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header{
+    background: black;
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px;
+    overflow: hidden;
+}
+
+.header img{
+    width: 50px;
+    height: 35px;
+}
+
+.header ul{
+    margin-top: 3px;
+    list-style: none;
+}
+
+.header li{
+    float: left;
+    padding: 8px 20px;
+    border: 1px solid white;
+}
+
+.header li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header form{
+    margin-left: 50px;
+    float: right;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.header form input{
+    border: none;
+    height: 20px;
+    margin-right: 50px;
+}
+
+.daftar-content{
+    width: 670px;
+    float: left;
+}
+
+.daftar-content #content{
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.daftar-content #content img{
+    float: left;
+    width: 200px;
+    height: 160px;
+    margin-left: 10px;
+}
+
+.daftar-content #content b{
+    color: black;
+    background-color: grey;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.daftar-content #content1 p{
+    margin: 10px 0px;
+    margin-right: 50px;
+}
+
+.daftar-content #content a{
+    text-decoration: none;
+    text-align: right;
+    display: block;
+}
+
+.sidebar{
+    width: 470px;
+    float: right;
+}
+
+.sidebar h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.sidebar p{
+    line-height: 20px;
+    color: darkslategrey;
+}
+
+.sidebar ul li{
+    list-style: none;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0;
+    background-color: whitesmoke;
+    color: aqua;
+}

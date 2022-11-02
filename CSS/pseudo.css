@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+
+}
+
+a:hover{
+    color:aqua;
+}
+
+a:visited{
+    background-color: crimson;
+}
+
+ul li:first-child{
+    color: cyan;
+}
+
+ul li:last-child{
+    color: grey
+}
